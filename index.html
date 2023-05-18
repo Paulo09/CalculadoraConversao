@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+           
+  
+    <title>Apostila JavaScript Progressivo</title>
+    <script type="text/javascript" src="conversor.js"></script>
+ </head>
+
+ <body>
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card blue-green darken-1">
+        <div class="card-content black-text">
+        <span class="card-title">Valor Conversão: <div id="resposta" style='display:inline'></div></span>
+        <p>
+          <label>
+            <!--Converte para Fahrenheit-->
+            <input type="radio" name="converter" id="converterF"/>
+            <span>Celsius para Fahrenheit</span>
+          </label>
+      
+          <label>
+            <!--Converte para Celsius-->
+            <input type="radio" name="converter" id="converterC"/>
+            <span>Fahrenheit para Celsius</span>
+          </label>
+      
+        </p>
+        
+        <input id="num" type="number">
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-light btn" onclick="converter()">Calcular</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</html>

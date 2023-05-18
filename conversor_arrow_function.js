@@ -1,0 +1,4 @@
+const conversor = (temp)=>{
+   
+    
+}
