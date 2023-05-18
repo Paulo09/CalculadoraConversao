@@ -12,6 +12,7 @@ function converter()
 //c = (F-32)/1,8
 //f = 1,8+32
 //Fazer a conversão
+//
 function converteF(n1)
 {
  return (1.8*n1 + 32);
